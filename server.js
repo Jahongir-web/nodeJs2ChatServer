@@ -18,7 +18,7 @@ const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
     // origin: "*",
-    origin: "http://localhost:3000",
+    origin: "https://main--stalwart-elf-acf24c.netlify.app",
     // methods: ["GET", "POST"],
   }
 });
